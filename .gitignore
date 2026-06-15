@@ -18,7 +18,7 @@
 *.pdb
 
 # Compiled Dynamic libraries
-*.so
+**/*.so
 *.dylib
 *.dll
 *.so.*
@@ -67,3 +67,8 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+.Rhistory
+
+# cmdstanr models by directory
+logistic/logistic
